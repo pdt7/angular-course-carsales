@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+
+$background-color: #252525 !important;
+$front-color: #fff !important;
+
+body {
+    background-image: url("./assets/2015-mercedes-benz-slk55-amg-d7j9ra4xhwlitqao.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.95;
+}
+
+.p-card {
+    background-color: $background-color;
+    color: $front-color;
+}
+
+.text-center {
+    text-align: center;
+}

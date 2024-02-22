@@ -1,0 +1,15 @@
+$background-color: #252525 !important;
+$front-color: #fff !important;
+
+.card {
+    margin-top: 4em;
+}
+
+.p-card {
+    background-color: $background-color;
+    color: $front-color;
+}
+
+.text-center {
+    text-align: center;
+}
